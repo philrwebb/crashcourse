@@ -1,0 +1,13 @@
+{
+  "name": "crashcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pg:start": "docker compose up -d",
+    "pg:stop": "docker compose down",
+    "pg:psql": "docker compose exec postgres bash"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
